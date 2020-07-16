@@ -48,7 +48,11 @@ namespace NarcissisticNumbers3
         }
         private static List<int> MakeList3(int a, int b, int c)
         {
-            var nums = new List<int>() { a, b, c };
+            //var nums = new List<int>() { a, b, c };
+            var nums = new List<int>();
+            nums.Add(a);
+            nums.Add(b);
+            nums.Add(c);
 
             return nums;
         }
